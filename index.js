@@ -5,7 +5,7 @@ const fetch = require('node-fetch');
 const app = express();
 const port = 3000;
 
-const API_KEY = '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';
+const API_KEY = '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';
 
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true }));
