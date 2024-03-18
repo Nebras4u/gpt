@@ -7,6 +7,7 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "gpt-3": "^1.0.0",
     "express": "3.x",
     "body-parser": "~1.10.1",
     "ejs": "~2.1.4",
