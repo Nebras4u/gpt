@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const fetch = require('node-fetch');
+const fetch = require('node-fetch').default;
 
 const app = express();
 const port = 3000;
