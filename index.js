@@ -31,7 +31,7 @@ app.post('/ask', async (req, res) => {
         });
 
         const data = await response.json();
-        //console.log(data);
+        console.log(data);
         const reply = data.choices[0].text.trim();
         res.render('index', { reply });
     } catch (error) {
